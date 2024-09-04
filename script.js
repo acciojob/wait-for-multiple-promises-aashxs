@@ -28,6 +28,7 @@ function row(name, time) {
   col1.innerText = time;
 }
 let loadingRow = ans.insertRow(-1);
+loadingRow.id = 'loading';
 let loadingData = loadingRow.insertCell(0);
 loadingData.innerText = "Loading...";
 loadingData.colSpan = 2;  // To make it span 2 columns
